@@ -1,5 +1,6 @@
 import About from './components/About';
 import Hero from './components/Hero';
+import MyServices from './components/MyServices';
 import Navbar from './components/Navbar';
 import Technologies from './components/Technologies';
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Hero />
         <About />
         <Technologies />
+        <MyServices />
       </div>
     </div>
   )
