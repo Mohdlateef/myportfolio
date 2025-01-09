@@ -1,4 +1,5 @@
 import About from './components/About';
+import Contact from './components/contact';
 import Hero from './components/Hero';
 import MyServices from './components/MyServices';
 import Navbar from './components/Navbar';
@@ -21,6 +22,7 @@ function App() {
         <Technologies />
         <MyServices />
         <Projects />
+        <Contact />
       </div>
     </div>
   )
