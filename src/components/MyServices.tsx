@@ -5,35 +5,44 @@ import { My_services } from "../constants"
 
 export default function MyServices() {
     return (
-        <div className="border-b border-neutral-900 pb-4 lg:mb-35">
-            <h2 className="my-20 text-center text-4xl">My Serivices </h2>
-            <div>
-                <div className="flex justify-between items-center flex-wrap">
-                    <div className="flex flex-col justify-center tracking-tight items-center p-2  rounded-lg lg:w-1/4 gap-1 shadow-md shadow-gray-700 p-3 hover:bg-slate-500  hover:scale-105">
-                        <HiOutlineDesktopComputer className="text-white text-7xl my-5" />
+        <section className="section section-service" id="service">
+            <div className="container">
+                <h2 className="common-heading">My Services</h2>
+                <p className="subtitle">These are the services I can offer you right now. </p>
+            </div>
 
-
-                        <h3 className="text-white text-xl font-bold">Frontend Development</h3>
-                        <p className="text-white">{My_services}</p>
-
+            <div className="container grid grid-three-column">
+                <div className="service-box">
+                    <div className="content">
+                        <ion-icon name="desktop-outline" class="service-icon"></ion-icon>
+                        <h3>Fronted Development</h3>
+                        <p> I have Fronted skill HTML5, CSS3, JavaScript, BootStrap to build Fronted web page And now
+                            learning Framework React JS</p>
                     </div>
-                    <div className="flex flex-col justify-center tracking-tight items-center rounded-lg lg:w-1/4 gap-1 shadow-md shadow-gray-700 p-3  hover:bg-slate-500  hover:scale-105">
-                        <FaHive className="text-white text-7xl my-5" />
+                    <div className="cricle"></div>
+                </div>
 
-
-                        <h3 className="text-white text-xl font-bold">Backend Development</h3>
-                        <p className="text-white">{My_services}</p>
-
-                    </div><div className="flex flex-col justify-center tracking-tight items-center p-2  rounded-lg lg:w-1/4 gap-1 shadow-md shadow-gray-700 p-3 hover:bg-slate-500  hover:scale-105">
-                        <MdComputer className="text-white text-7xl my-5" />
-
-
-                        <h3 className="text-white text-xl font-bold">Responsive Web Desing</h3>
-                        <p className="text-white">{My_services}</p>
-
+                <div className="service-box">
+                    <div className="content">
+                        <ion-icon name="code-slash" class="service-icon"></ion-icon>
+                        <h3>Backend Development</h3>
+                        <p>Not started yet can provide services of backend in future, Stay you soon I am learning now,
+                            Technology with Node JS</p>
                     </div>
+                    <div className="cricle"></div>
+                </div>
+
+                <div className="service-box">
+                    <div className="content">
+                        <ion-icon name="desktop-outline" class="service-icon"></ion-icon>
+                        <h3>Responsive Web Desing</h3>
+                        <p>Build a website fully Responsive with CSS3 Media Queries also bootstrap5 fronted framework</p>
+                    </div>
+                    <div className="cricle"></div>
                 </div>
             </div>
-        </div>
+
+        </section>
+
     )
 }
