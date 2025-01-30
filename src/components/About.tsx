@@ -1,4 +1,3 @@
-import { ABOUT_TEXT } from "../constants"
 import AboutGif from "../assets/github.gif"
 export default function About() {
     return (

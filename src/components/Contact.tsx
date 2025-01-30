@@ -1,21 +1,44 @@
-import React from 'react'
+import React from "react";
 
 export default function Contact() {
-    const [name, setName] = React.useState<string>("");
-    const [email, setEmail] = React.useState<string>("");
-    const [subject, setSubject] = React.useState<string>("");
-    const [message, setMessage] = React.useState<string>("")
+    const [result, setResult] = React.useState("");
+
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        setResult("Sending....");
+        const formData = new FormData(event.target);
+
+        formData.append("access_key", "15469d32-1e8a-4253-85bb-a1292f302f81");
+
+        const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: formData
+        });
+
+        const data = await response.json();
+
+        if (data.success) {
+            setResult("Form Submitted Successfully");
+            event.target.reset();
+        } else {
+            console.log("Error", data);
+            setResult(data.message);
+        }
+    };
+
     return (
-        <div className="border-b border-neutral-900 pb-4 lg:mb-35">
 
-            <div className="flex flex-col" >
-                <input type='text' placeholder='Name' value={name} onChange={(e) => setName(e.target.value)} />
-                <input type="email" placeholder='Email' value={email} onChange={(e) => setEmail(e.target.value)} />
-                <input type="text" placeholder='Subject' value={subject} onChange={(e) => setSubject(e.target.value)} />
-                <input type="text" placeholder='Message' value={message} onChange={(e) => setMessage(e.target.value)} />
+        <section>
+            <form onSubmit={onSubmit} className="flex flex-col gap-4 ">
+                <input type="text" name="name" required placeholder="name" className=" bg:[#fbcfc2]" />
+                <input type="email" name="email" required placeholder="email " className="bg:[#fbcfc2]" />
+                <textarea name="message" required placeholder="input" className="bg:[#fbcfc2]"></textarea>
 
+                <button type="submit">Submit Form</button>
 
-            </div>
-        </div>
-    )
+            </form>
+            <span>{result}</span>
+
+        </section>
+    );
 }
