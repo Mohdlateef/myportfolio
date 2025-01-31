@@ -28,13 +28,14 @@ export default function Contact() {
 
     return (
 
-        <section>
-            <form onSubmit={onSubmit} className="flex flex-col gap-4 ">
-                <input type="text" name="name" required placeholder="name" className=" bg:[#fbcfc2]" />
-                <input type="email" name="email" required placeholder="email " className="bg:[#fbcfc2]" />
-                <textarea name="message" required placeholder="input" className="bg:[#fbcfc2]"></textarea>
+        <section className="w-[100%] border-r-2 my-5 py-11 px-10 rounded-lg shadow-2xl" >
+            <form onSubmit={onSubmit} className="flex flex-col gap-5 ">
+                <input type="text" name="name" required placeholder="Name" className=" bg-[#fbcfc2] h-16 text-2xl outline-none pl-5 rounded-lg" />
+                <input type="email" name="email" required placeholder="Email " className="bg-[#fbcfc2] h-16 text-2xl pl-5 outline-none rounded-lg" />
+                <input type="text" name="Subject" required placeholder="Subject " className="bg-[#fbcfc2] h-16 text-2xl pl-5 outline-none rounded-lg" />
+                <textarea name="message" required placeholder="Message" className="bg:[#fbcfc2] p-0 text-2xl outline-none h-[10rem] pl-5 rounded-lg"></textarea>
 
-                <button type="submit">Submit Form</button>
+                <button type="submit" className="text-2xl bg-[#fc7b54] h-16 px-3 rounded-sm text-white font-semibold">SEND MESSAGE</button>
 
             </form>
             <span>{result}</span>

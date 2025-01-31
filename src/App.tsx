@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Technologies from './components/Technologies';
 import "./App.css";
+import Footer from './components/Footer';
 function App() {
 
   return (
@@ -16,7 +17,7 @@ function App() {
         </div>
       </div>
 
-      <div className="container mx-auto px-12">
+      <div>
         <Navbar />
         <Hero />
         <About />
@@ -24,6 +25,7 @@ function App() {
         <MyServices />
         <Projects />
         <Contact />
+        <Footer />
       </div>
     </div>
   )
