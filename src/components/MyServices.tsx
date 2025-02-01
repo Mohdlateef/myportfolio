@@ -1,7 +1,3 @@
-import { HiOutlineDesktopComputer } from "react-icons/hi";
-import { FaHive } from "react-icons/fa";
-import { MdComputer } from "react-icons/md";
-import { My_services } from "../constants"
 
 export default function MyServices() {
     return (

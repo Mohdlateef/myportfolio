@@ -1,3 +1,6 @@
+import { FaGithub, FaInstagram, FaLinkedin, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
+import { MdAddCall } from "react-icons/md";
+import { RiMailLine } from "react-icons/ri";
 
 export default function Footer() {
     return (
@@ -23,41 +26,35 @@ export default function Footer() {
                     <h3>Have Question?</h3>
                     <div>
                         <span>
-                            <ion-icon name="location-outline"></ion-icon>
+                            <FaMapMarkerAlt />
                         </span><a href="#"> Srinagar Jammu AND Kashmir </a>
                     </div>
 
                     <div>
                         <span>
-                            <ion-icon name="call-outline"></ion-icon>
+                            <MdAddCall />
                         </span><a href="tel:+917499866920"> +91 7780870323</a>
 
                     </div>
 
                     <div>
                         <span>
-                            <ion-icon name="mail-outline"></ion-icon>
+                            <RiMailLine />
                         </span><a href="mailto:Lateefahbaba123@gmail.com">Lateefahbaba123@gmail.com</a>
                     </div>
 
                 </div>
 
-                <address class="social-icons">
-                    <a href="https://www.linkedin.com/feed/" target="_blank" className="icons">
-                        <ion-icon name="logo-linkedin"></ion-icon>
-                    </a>
+                <address className="social-icons">
 
-                    <a href="https://github.com/Ajay-Chaudhari01001" target="_blank" className="icons">
-                        <ion-icon name="logo-github"></ion-icon>
-                    </a>
+                    <a href="https://www.linkedin.com/in/lateef-ahmad-954a36254/" target="_blank" className="text-white"><FaLinkedin /></a>
 
-                    <a href="https://www.instagram.com/ajay_chaudhari_19" target="_blank" className="icons">
-                        <ion-icon name="logo-instagram"></ion-icon>
-                    </a>
+                    <a href="https://github.com/Mohdlateef" target="_blank" className="icons"> <FaGithub /></a>
 
-                    <a href="https://wa.me/7499866920" target="_blank" className="icons">
-                        <ion-icon name="logo-whatsapp"></ion-icon>
-                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" className="icons"><FaInstagram /></a>
+
+                    <a href="https://wa.me/7780870323" target="_blank" className="icons"> <FaWhatsapp /></a>
+
                 </address>
             </div>
 
