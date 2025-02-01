@@ -6,7 +6,8 @@ import { FaNode } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 export default function Technologies() {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
+    <section id="technologies">
+      {/* <div className="border-b border-neutral-900 pb-4 lg:mb-35"> */}
       <h2 className="my-20 text-center text-4xl">Technologies</h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
@@ -29,6 +30,7 @@ export default function Technologies() {
         </div>
 
       </div>
-    </div>
+      {/* </div> */}
+    </section>
   )
 }

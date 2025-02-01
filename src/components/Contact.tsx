@@ -28,7 +28,7 @@ export default function Contact() {
 
     return (
 
-        <section className="w-[100%] border-r-2 my-5 py-11 px-10 rounded-lg shadow-2xl" >
+        <section className="w-[100%] border-r-2 my-5 py-11 px-10 rounded-lg shadow-2xl" id="contact" >
             <form onSubmit={onSubmit} className="flex flex-col gap-5 ">
                 <input type="text" name="name" required placeholder="Name" className=" bg-[#fbcfc2] h-16 text-2xl outline-none pl-5 rounded-lg" />
                 <input type="email" name="email" required placeholder="Email " className="bg-[#fbcfc2] h-16 text-2xl pl-5 outline-none rounded-lg" />

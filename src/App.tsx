@@ -18,7 +18,10 @@ function App() {
       </div>
 
       <div>
-        <Navbar />
+        <div className='sticky z-50'>
+          <Navbar />
+
+        </div>
         <Hero />
         <About />
         <Technologies />

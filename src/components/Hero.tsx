@@ -19,7 +19,7 @@ export default function Hero() {
                 <div className="hero-image item2" data-aos="fade-down-left">
                     <img src={heropic} className="hero-img" alt="my photo" />
 
-                    <div className="achivements" data-aos="fade-left">
+                    {/* <div className="achivements" data-aos="fade-left">
                         <div className="grid grid-three-column achivements-box">
                             <div className="box">
                                 <h2>Projects</h2>
@@ -34,7 +34,7 @@ export default function Hero() {
                                 <p>5+</p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="social-icons item3" data-aos="fade-right">

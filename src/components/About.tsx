@@ -1,4 +1,5 @@
 import AboutGif from "../assets/github.gif"
+import Resume from "../assets/lateefahmadbaba (1) (2).pdf"
 export default function About() {
     return (
         <section className="section section-about" id="about">
@@ -33,7 +34,7 @@ export default function About() {
                     <p>I am currently exploring advanced frameworks and tools to build scalable web applications and
                         progressing toward becoming a well-rounded <strong>Full Stack Developer</strong>.</p>
 
-                    <a href="images/Ajay-Chaudhari-Resume.pdf" className="btn">Download CV</a>
+                    <a href={Resume} className="btn">View Resume</a>
                 </div>
             </div>
         </section>

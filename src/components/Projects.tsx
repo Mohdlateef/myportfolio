@@ -1,7 +1,7 @@
 import youtube from "../assets/projects/youtube.png"
 export default function Projects() {
     return (
-        <section className="section section-portfolio" id="portfolio">
+        <section className="section section-portfolio" id="projects">
             <div className="container">
                 <h2 className="common-heading">My Projects</h2>
                 <p className="subtitle">This is my portfolio section where I showcase some awesome projects that I built using
