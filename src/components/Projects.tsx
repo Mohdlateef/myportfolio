@@ -1,4 +1,5 @@
 import youtube from "../assets/projects/youtube.png"
+import Portfolio from "../assets/projects/Screenshot 2025-02-07 212407.png"
 export default function Projects() {
     return (
         <section className="section section-portfolio" id="projects">
@@ -42,6 +43,7 @@ export default function Projects() {
 
                 <div className="project-box">
                     {/* <img src="images/portfolio/ghumoindia-min.png" alt="hero image"> */}
+
                     <div className="overlay">
                         <h3>Ghumo India</h3>
                         <p>This is a frontend project that features an attractive user interface designed to represent
@@ -71,11 +73,12 @@ export default function Projects() {
                 </div>
 
                 <div className="project-box">
-                    {/* <img src="images/portfolio/portfolio-min.png" alt="hero image"> */}
+                    <img src={Portfolio} alt="hero image" />
                     <div className="overlay">
                         <h3>My Portfolio</h3>
-                        <p>This is my personal portfolio website that was built using HTML, CSS, and JavaScript. It features
-                            an attractive and modern design.
+                        <p>This is my personal portfolio website ,this portfolio to demonstrate my coding proficiency,
+                            commitment to clean and efficient code, and adaptability to new challenges. Built using React.js
+                            for dynamic UI components, Tailwind CSS for responsive and stylish design
                         </p>
                         <div className="portfolio-links">
                             {/* <a href="https://ajaychaudhari.me" target="_blank"><ion-icon
