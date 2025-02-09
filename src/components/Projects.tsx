@@ -1,5 +1,7 @@
 import youtube from "../assets/projects/youtube.png"
-import Portfolio from "../assets/projects/Screenshot 2025-02-07 212407.png"
+import Portfolio from "../assets/projects/Screenshot 2025-02-07 212407.png";
+import BlogsImg from "../assets/ilya-pavlov-OqtafYT5kTw-unsplash.jpg"
+
 export default function Projects() {
     return (
         <section className="section section-portfolio" id="projects">
@@ -26,9 +28,9 @@ export default function Projects() {
                 </div>
 
                 <div className="project-box">
-                    {/* <img src="images/portfolio/financely.png" alt="hero image"> */}
+                    <img src={BlogsImg} alt="Blogs image" />
                     <div className="overlay">
-                        <h3>Financely</h3>
+                        <h3>BlogsApp</h3>
                         <p>The React Financial Tracker App is designed to help users keep track of their income and
                             expenses. Users can add, edit, delete transactions, and view their financial data in the form of
                             charts.</p>
