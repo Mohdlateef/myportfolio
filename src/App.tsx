@@ -20,7 +20,6 @@ function App() {
       <div>
         <div className='sticky z-50'>
           <Navbar />
-
         </div>
         <Hero />
         <About />
