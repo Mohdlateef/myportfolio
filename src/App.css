@@ -831,6 +831,10 @@ textarea {
     font-size: 60%;
   }
 
+  .section-hero-data {
+    padding-top: 3rem;
+  }
+
   .container {
     max-width: 72rem;
   }
@@ -991,7 +995,12 @@ textarea {
     flex-direction: column;
     gap: .5rem;
     position: absolute;
-    top: 50%;
+    /* top: 50%; */
+  }
+
+
+  .social-icons {
+    top: 65%;
   }
 
   .section-contact .google-map {
