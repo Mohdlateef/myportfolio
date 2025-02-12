@@ -1,6 +1,7 @@
 import youtube from "../assets/projects/youtube.png"
 import Portfolio from "../assets/projects/Screenshot 2025-02-07 212407.png";
-import BlogsImg from "../assets/ilya-pavlov-OqtafYT5kTw-unsplash.jpg"
+import BlogsImg from "../assets/ilya-pavlov-OqtafYT5kTw-unsplash.jpg";
+import Crypto from "../assets/projects/crypto.png";
 
 export default function Projects() {
     return (
@@ -44,7 +45,7 @@ export default function Projects() {
                 </div>
 
                 <div className="project-box">
-                    {/* <img src="images/portfolio/ghumoindia-min.png" alt="hero image"> */}
+                    <img src={Crypto} alt="hero image" />
 
                     <div className="overlay">
                         <h3>Ghumo India</h3>
