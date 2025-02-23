@@ -15,7 +15,7 @@ export default function Projects() {
 
             <div className="container grid grid-three-column">
                 <div className="project-box">
-                    <img src={youtube} alt="hero image" />
+                    <img src={youtube} alt="hero image" className="w-full h-full" />
                     <div className="overlay">
                         <h3>YouTube</h3>
                         <p>This repository contains 30 web projects built using HTML5, CSS3, and JavaScript. It is designed
@@ -29,7 +29,7 @@ export default function Projects() {
                 </div>
 
                 <div className="project-box">
-                    <img src={BlogsImg} alt="Blogs image" />
+                    <img src={BlogsImg} alt="Blogs image" className="w-full h-full" />
                     <div className="overlay">
                         <h3>BlogsApp</h3>
                         <p>The React Financial Tracker App is designed to help users keep track of their income and
@@ -45,7 +45,7 @@ export default function Projects() {
                 </div>
 
                 <div className="project-box">
-                    <img src={Crypto} alt="hero image" />
+                    <img src={Crypto} alt="hero image" className="w-full h-full" />
 
                     <div className="overlay">
                         <h3>Ghumo India</h3>
@@ -76,7 +76,7 @@ export default function Projects() {
                 </div>
 
                 <div className="project-box">
-                    <img src={Portfolio} alt="hero image" />
+                    <img src={Portfolio} alt="hero image" className="w-full h-full" />
                     <div className="overlay">
                         <h3>My Portfolio</h3>
                         <p>This is my personal portfolio website ,this portfolio to demonstrate my coding proficiency,
