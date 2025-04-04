@@ -1,6 +1,7 @@
 import youtube from "../assets/projects/youtube.png"
 import Portfolio from "../assets/projects/Screenshot 2025-02-07 212407.png";
 import BlogsImg from "../assets/ilya-pavlov-OqtafYT5kTw-unsplash.jpg";
+import GoogleSheet from "../assets/projects/googleSheet.png"
 import Crypto from "../assets/projects/crypto.png";
 
 export default function Projects() {
@@ -93,10 +94,14 @@ export default function Projects() {
                 </div>
 
                 <div className="project-box">
-                    {/* <img src="images/portfolio/gp3-min.png" alt="hero image"> */}
+                    <img src={GoogleSheet} alt="hero image" />
                     <div className="overlay">
-                        <h3>Github Profile Searcher</h3>
-                        <p>This app helps students easily find user profiles on GitHub.</p>
+                        <h3>Online Spreadsheet Editor</h3>
+                        <p>
+                            Developed a web-based spreadsheet application with a user-friendly interface similar to Google Sheets. Features include: Real-time Editing – Create and edit spreadsheets dynamically.
+                            Formula Support Perform calculations with built-in formulas.
+                        </p>
+
                         <div className="portfolio-links">
                             {/* <a href="https://githubprofilefinde.netlify.app/" target="_blank"><ion-icon
                                 name="desktop-outline" tar></ion-icon></a>
