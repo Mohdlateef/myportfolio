@@ -12,8 +12,7 @@ export default function MyServices() {
                     <div className="content">
                         <ion-icon name="desktop-outline" class="service-icon"></ion-icon>
                         <h3>Fronted Development</h3>
-                        <p> I have Fronted skill HTML5, CSS3, JavaScript, BootStrap to build Fronted web page And now
-                            learning Framework React JS</p>
+                        <p> Experienced in building responsive and modern web interfaces using HTML5, CSS3, JavaScript, Bootstrap, Tailwind CSS, and React.js.</p>
                     </div>
                     <div className="cricle"></div>
                 </div>
@@ -22,8 +21,9 @@ export default function MyServices() {
                     <div className="content">
                         <ion-icon name="code-slash" class="service-icon"></ion-icon>
                         <h3>Backend Development</h3>
-                        <p>Not started yet can provide services of backend in future, Stay you soon I am learning now,
-                            Technology with Node JS</p>
+                        <p>Backend Development
+                            I have experience with backend technologies including Node.js, Express, MongoDB, Mongoose, SQL, and SQLite.
+                        </p>
                     </div>
                     <div className="cricle"></div>
                 </div>
@@ -32,7 +32,9 @@ export default function MyServices() {
                     <div className="content">
                         <ion-icon name="desktop-outline" class="service-icon"></ion-icon>
                         <h3>Responsive Web Desing</h3>
-                        <p>Build a website fully Responsive with CSS3 Media Queries also bootstrap5 fronted framework</p>
+                        <p>Skilled in building responsive and user-friendly web interfaces using CSS3, Bootstrap 5, and Tailwind CSS. I ensure seamless experiences across all screen sizes.
+
+                        </p>
                     </div>
                     <div className="cricle"></div>
                 </div>

@@ -49,9 +49,8 @@ export default function Projects() {
                     <img src={Crypto} alt="hero image" className="w-full h-full" />
 
                     <div className="overlay">
-                        <h3>Ghumo India</h3>
-                        <p>This is a frontend project that features an attractive user interface designed to represent
-                            various places in India.</p>
+                        <h3>Crypto Tracker</h3>
+                        <p>A web app to view live prices of cryptocurrencies. It uses a public API to show real-time data like price, market cap, and other info</p>
                         <div className="portfolio-links">
                             {/* <a href="https://ghumoindia.netlify.app" target="_blank"><ion-icon
                                     name="desktop-outline"></ion-icon></a> */}
