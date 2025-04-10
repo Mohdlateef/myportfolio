@@ -1,3 +1,6 @@
+import { CgDesktop } from "react-icons/cg";
+import { FaDatabase } from "react-icons/fa";
+import { HiOutlineDesktopComputer } from "react-icons/hi";
 
 export default function MyServices() {
     return (
@@ -10,7 +13,7 @@ export default function MyServices() {
             <div className="container grid grid-three-column">
                 <div className="service-box">
                     <div className="content">
-                        <ion-icon name="desktop-outline" class="service-icon"></ion-icon>
+                        < CgDesktop className="service-icon" />
                         <h3>Fronted Development</h3>
                         <p> Experienced in building responsive and modern web interfaces using HTML5, CSS3, JavaScript, Bootstrap, Tailwind CSS, and React.js.</p>
                     </div>
@@ -19,7 +22,7 @@ export default function MyServices() {
 
                 <div className="service-box">
                     <div className="content">
-                        <ion-icon name="code-slash" class="service-icon"></ion-icon>
+                        <FaDatabase className="service-icon" />
                         <h3>Backend Development</h3>
                         <p>Backend Development
                             I have experience with backend technologies including Node.js, Express, MongoDB, Mongoose, SQL, and SQLite.
@@ -30,7 +33,7 @@ export default function MyServices() {
 
                 <div className="service-box">
                     <div className="content">
-                        <ion-icon name="desktop-outline" class="service-icon"></ion-icon>
+                        <HiOutlineDesktopComputer className="service-icon" />
                         <h3>Responsive Web Desing</h3>
                         <p>Skilled in building responsive and user-friendly web interfaces using CSS3, Bootstrap 5, and Tailwind CSS. I ensure seamless experiences across all screen sizes.
 

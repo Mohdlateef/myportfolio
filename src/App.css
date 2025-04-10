@@ -1027,3 +1027,8 @@ textarea {
     width: 100%;
   }
 }
+
+.footer_icons {
+  display: flex;
+  align-items: center;
+}

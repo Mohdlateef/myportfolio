@@ -24,20 +24,20 @@ export default function Footer() {
 
                 <div className="connect">
                     <h3>Have Question?</h3>
-                    <div>
+                    <div className="footer_icons">
                         <span>
                             <FaMapMarkerAlt />
                         </span><a href="#"> Srinagar Jammu AND Kashmir </a>
                     </div>
 
-                    <div>
+                    <div className="footer_icons">
                         <span>
                             <MdAddCall />
                         </span><a href="tel:+917499866920"> +91 7780870323</a>
 
                     </div>
 
-                    <div>
+                    <div className="footer_icons">
                         <span>
                             <RiMailLine />
                         </span><a href="mailto:Lateefahbaba123@gmail.com">Lateefahbaba123@gmail.com</a>

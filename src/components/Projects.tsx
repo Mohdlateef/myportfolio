@@ -1,7 +1,7 @@
 import youtube from "../assets/projects/youtube.png"
 import Portfolio from "../assets/projects/Screenshot 2025-02-07 212407.png";
-import BlogsImg from "../assets/ilya-pavlov-OqtafYT5kTw-unsplash.jpg";
-import GoogleSheet from "../assets/projects/googleSheet.png"
+// import BlogsImg from "../assets/ilya-pavlov-OqtafYT5kTw-unsplash.jpg";
+// import GoogleSheet from "../assets/projects/googleSheet.png"
 import Crypto from "../assets/projects/crypto.png";
 
 export default function Projects() {
@@ -29,7 +29,7 @@ export default function Projects() {
                     </div>
                 </div>
 
-                <div className="project-box">
+                {/* <div className="project-box">
                     <img src={BlogsImg} alt="Blogs image" className="w-full h-full" />
                     <div className="overlay">
                         <h3>BlogsApp</h3>
@@ -37,13 +37,13 @@ export default function Projects() {
                             expenses. Users can add, edit, delete transactions, and view their financial data in the form of
                             charts.</p>
                         <div className="portfolio-links">
-                            {/* <a href="https://financetracker22.netlify.app/" target="_blank"><ion-icon
-                                    name="desktop-outline"></ion-icon></a> */}
-                            {/* <a href="https://github.com/Ajay-Chaudhari01001/Financely" target="_blank"><ion-icon
-                                    name="logo-github"></ion-icon></a> */}
+                            <a href="https://financetracker22.netlify.app/" target="_blank"><ion-icon
+                                name="desktop-outline"></ion-icon></a>
+                            <a href="https://github.com/Ajay-Chaudhari01001/Financely" target="_blank"><ion-icon
+                                name="logo-github"></ion-icon></a>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="project-box">
                     <img src={Crypto} alt="hero image" className="w-full h-full" />
@@ -60,20 +60,20 @@ export default function Projects() {
                     </div>
                 </div>
 
-                <div className="project-box">
-                    {/* <img src="images/portfolio/university-min.png" alt="hero image"> */}
+                {/* <div className="project-box">
+                    <img src="images/portfolio/university-min.png" alt="hero image"> 
                     <div className="overlay">
                         <h3>Hello World University</h3>
                         <p>This is a university website that showcases its courses and facilities. It was built using modern
                             web technologies such as HTML5, CSS3, and JavaScript.</p>
                         <div className="portfolio-links">
-                            {/* <a href="https://helloworlduniversity.netlify.app" target="_blank"><ion-icon
-                                    name="desktop-outline"></ion-icon></a> */}
-                            {/* <a href="https://github.com/Ajay-Chaudhari01001/helloworlduniversity" target="_blank"><ion-icon
-                                    name="logo-github"></ion-icon></a> */}
+                             <a href="https://helloworlduniversity.netlify.app" target="_blank"><ion-icon
+                                    name="desktop-outline"></ion-icon></a> 
+                             <a href="https://github.com/Ajay-Chaudhari01001/helloworlduniversity" target="_blank"><ion-icon
+                                    name="logo-github"></ion-icon></a> 
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="project-box">
                     <img src={Portfolio} alt="hero image" className="w-full h-full" />
@@ -92,7 +92,7 @@ export default function Projects() {
                     </div>
                 </div>
 
-                <div className="project-box">
+                {/* <div className="project-box">
                     <img src={GoogleSheet} alt="hero image" />
                     <div className="overlay">
                         <h3>Online Spreadsheet Editor</h3>
@@ -102,13 +102,13 @@ export default function Projects() {
                         </p>
 
                         <div className="portfolio-links">
-                            {/* <a href="https://githubprofilefinde.netlify.app/" target="_blank"><ion-icon
+                            <a href="https://githubprofilefinde.netlify.app/" target="_blank"><ion-icon
                                 name="desktop-outline" tar></ion-icon></a>
                             <a href="https://github.com/Ajay-Chaudhari01001/30_Days-JS-Projects/tree/master/9%20-%20Github%20Profile%20Searcher"
-                                target="_blank"><ion-icon name="logo-github"></ion-icon></a> */}
+                                target="_blank"><ion-icon name="logo-github"></ion-icon></a>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
             </div>
 
