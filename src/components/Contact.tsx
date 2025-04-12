@@ -29,17 +29,17 @@ export default function Contact() {
 
     return (
 
-        <section className=" w:[100] border-r-2 my-5 gap-10 rounded-lg shadow-2xl flex " id="contact" >
+        <section className=" w:[100] border-r-2 my-5 gap-10 rounded-lg shadow-2xl flex px-32 justify-center" id="contact"  >
             <map className="bg-red-300 ">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d211426.63515987786!2d74.6419431467965!3d34.10689274284894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e1855686e3c5ef%3A0x66244b7cc1e305c6!2sSrinagar!5e0!3m2!1sen!2sin!4v1744390554132!5m2!1sen!2sin"
-                    width="600"
-                    height="450"
+                    width="400"
+                    height="250"
                     loading="lazy" >
                 </iframe>
             </map>
 
-            <form onSubmit={onSubmit} className="flex flex-col gap-5 flex-grow">
+            <form onSubmit={onSubmit} className="flex flex-col gap-5  w-[650px]">
                 <input type="text" name="name" required placeholder="Name" className=" bg-[#fbcfc2] h-16 text-2xl outline-none pl-5 rounded-lg" />
                 <input type="email" name="email" required placeholder="Email " className="bg-[#fbcfc2] h-16 text-2xl pl-5 outline-none rounded-lg" />
                 <input type="text" name="Subject" required placeholder="Subject " className="bg-[#fbcfc2] h-16 text-2xl pl-5 outline-none rounded-lg" />
